@@ -1,0 +1,33 @@
+[Start]
+   |
+   v
+[Display Menu]
+   |---> (1. Encrypt Message) ---> [Prompt: Enter Message]
+   |                                    |
+   |                                    v
+   |                              [Prompt: Enter Shift Value]
+   |                                    |
+   |                                    v
+   |                              [Encrypt Message]
+   |                                    |
+   |                                    v
+   |                          [Display Encrypted Message]
+   |                                    |
+   |                                    v
+   |                               [Go to Menu]
+   |
+   |---> (2. Decrypt Message) ---> [Prompt: Enter Encrypted Message]
+   |                                    |
+   |                                    v
+   |                              [Prompt: Enter Shift Value]
+   |                                    |
+   |                                    v
+   |                              [Decrypt Message]
+   |                                    |
+   |                                    v
+   |                          [Display Decrypted Message]
+   |                                    |
+   |                                    v
+   |                               [Go to Menu]
+   |
+   |---> (3. Exit) ---> [End]
